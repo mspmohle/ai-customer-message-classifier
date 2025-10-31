@@ -1,0 +1,50 @@
+# --- Python cache and compiled files ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+*.ipynb_convert
+
+# --- Environment and local settings ---
+.env
+.venv/
+env/
+venv/
+*.DS_Store
+*.vscode/
+*.idea/
+*.log
+
+# --- Data and results ---
+data/*.csv
+data/*.duckdb
+data/*.db
+data/*.sqlite
+data/raw/
+data/interim/
+data/processed/
+
+# --- Figures and reports ---
+figures/*.pdf
+figures/*.svg
+figures/*.jpg
+figures/*.jpeg
+# Keep generated PNGs (for GitHub visualization)
+!figures/*.png
+!figures/classification_report.csv
+
+# --- Temporary and build files ---
+*.tmp
+*.bak
+*.swp
+*.zip
+*.tar.gz
+
+# --- OS & system files ---
+Thumbs.db
+.DS_Store
